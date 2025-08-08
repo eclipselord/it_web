@@ -11,6 +11,7 @@ body { font-family: "Fira Sans", sans-serif; }
 .top-right-menu ul.social-icons { margin: 0; padding: 0; }
 .text-right { text-align: right; }
 .top-address p span i, .top-address p a i { font-size: 15px; margin-right: 0px; }
+
 @media (min-width: 0px) and (max-width: 991px) {
  .itconsult-header-top { display: none; }
  }
@@ -358,7 +359,7 @@ body { font-family: "Fira Sans", sans-serif; }
 /* ///////////////////////////////////change section//////////////////////////////////////////// */
 .gallery-head { margin-left: 100px; text-align: center; text-align: center; width: 54%; margin: 0 auto; }
 .main-flex{width: 50%;margin: 0 auto;}
-.main-flex p { color:#FF3C00; font-family:  'Fira Sans'; font-weight: 500; font-size: 18px; position: relative; }
+.main-flex p { color:#FF3C00; font-family:  'Fira Sans'; font-weight: 500; font-size: 18px; position: relative; text-align:center; }
 .main-flex p::before { content: ""; position: absolute; top: 10px; left: 0px; background-color: #FF3C00; height: 3px; width: 46px; }
 .main-flex p::after { content: ""; position: absolute; top: 10px; right: 0px; background-color: #FF3C00; height: 3px; width: 46px; }
 .gallery-head h1 { font-size: 45px; font-family: 'fira sans'; margin-top: 20px; width: 85%; margin-left: 84px; /* margin-right: 800px; */
@@ -735,3 +736,4 @@ z-index: 99; }
 left: 81px; top: -6px; }
 .vid .cirrrrr { z-index: 9; color: #ff3c00; font-size: 77px; animation: vi-cir2 3.1s 2s infinite ease-in-out backwards; position: absolute; left: 75px; top: -13px; /* display: none; */ }
 .tangle { position: absolute; left: 107px; top: 15px; }
+
