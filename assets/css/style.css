@@ -359,11 +359,11 @@ body { font-family: "Fira Sans", sans-serif; }
 /* ///////////////////////////////////change section//////////////////////////////////////////// */
 .gallery-head { margin-left: 100px; text-align: center; text-align: center; width: 54%; margin: 0 auto; }
 .main-flex{width: 50%;margin: 0 auto;}
-.main-flex p { color:#FF3C00; font-family:  'Fira Sans'; font-weight: 500; font-size: 18px; position: relative; text-align:center; }
-.main-flex p::before { content: ""; position: absolute; top: 10px; left: 0px; background-color: #FF3C00; height: 3px; width: 46px; }
+.main-flex p { color:#FF3C00; font-family:  'Fira Sans'; font-weight: 500; font-size: 18px; position: relative; text-align:center; display: none;}
+.main-flex p::before { content: ""; position: absolute; top: 10px; left: 0px; background-color: #FF3C00; height: 3px; width: 46px;display: none; }
 .main-flex p::after { content: ""; position: absolute; top: 10px; right: 0px; background-color: #FF3C00; height: 3px; width: 46px; }
 .gallery-head h1 { font-size: 45px; font-family: 'fira sans'; margin-top: 20px; width: 85%; margin-left: 84px; /* margin-right: 800px; */
-font-weight: 700; }
+font-weight: 700;text-align: center; }
 .gallery-head h1 span { color:#FF3C00 ; }
 .gallyrec { position: absolute; top: 150px; animation: imgreg 11.9s linear 1s infinite forwards; }
 @keyframes imgreg {
@@ -736,4 +736,5 @@ z-index: 99; }
 left: 81px; top: -6px; }
 .vid .cirrrrr { z-index: 9; color: #ff3c00; font-size: 77px; animation: vi-cir2 3.1s 2s infinite ease-in-out backwards; position: absolute; left: 75px; top: -13px; /* display: none; */ }
 .tangle { position: absolute; left: 107px; top: 15px; }
+
 
